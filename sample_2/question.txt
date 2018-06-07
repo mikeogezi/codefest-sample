@@ -1,0 +1,33 @@
+Sample Question 2
+-----------------
+A palindrome is a word, number, or other sequence of characters which reads
+the same backward as forward, such as madam or mom.
+Given a list of words, one on each line, output “Yes” if the word is a palindrome
+and “No” if it isn’t a palindrome.
+
+INPUT:
+● Each line contains a sequence of characters which may or may not be a palindrome.
+
+OUTPUT:
+● Print a line that contains either “Yes” if the word is a palindrome or “No” 
+if it isn’t a palindrome.
+
+EXAMPLE:
+
+Input:
+hannah
+669966
+evidence
+$$$$£
+
+Output:
+Yes
+Yes
+No
+No
+
+EXPLANATION:
+● For the first input the word is “hannah” which is the reads the same backwards as 
+it does forward. So “Yes” is printed to the console.
+● For the sequence of characters “$$$$£” in the last input, the first letter and 
+the last character are not the same so we can be sure the answer is “No”.

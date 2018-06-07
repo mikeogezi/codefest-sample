@@ -1,0 +1,31 @@
+Sample Question 1
+-----------------
+Write a program that computes the sum of an arbitrary list of integers and 
+prints its square root.
+
+INPUT:
+● Each line contains an arbitrary space separated list of integers.
+● Each integer ranges from 0 to 2147483648.
+
+OUTPUT:
+● For each line compute the sum of the integers and print out its square root 
+to at least 4 d.p.
+
+EXAMPLE:
+
+Input:
+12 45 32 5
+15 8636369 736000 12 639303 3
+2147483000 0 1 600 48
+81
+
+Output:
+9.695359715
+3164.127367854
+46340.950022631
+9.0000
+
+EXPLANATION:
+● For the first input the sum of the integers (12 + 45 + 32 + 5) equals 94. 
+The square root of 94 is 9.695359715.
+● For the fourth input there’s only one number (81) and its square root is 9.0000
